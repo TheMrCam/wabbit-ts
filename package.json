@@ -1,0 +1,37 @@
+{
+  "name": "wabbit-compiler",
+  "version": "0.0.0",
+  "description": "Wabbit compiler written in TypeScript; Project for David Beazly's compiler cource",
+  "main": "lib/index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "vitest --exclude src/index.test.ts",
+    "printPhases": "vitest src/index.test.ts -t \"print compiled stages\" --reporter dot",
+    "dev": "tsx src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dabeaz-course/compilers_2024_03.git"
+  },
+  "keywords": [
+    "wabbit",
+    "compiler"
+  ],
+  "author": "Cameron Woodbury",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/dabeaz-course/compilers_2024_03/issues"
+  },
+  "homepage": "https://github.com/dabeaz-course/compilers_2024_03#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.27",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2",
+    "vitest": "^1.3.1",
+    "wabt": "^1.0.32"
+  }
+}

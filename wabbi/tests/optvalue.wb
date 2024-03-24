@@ -1,0 +1,11 @@
+// Test of variable declaration with no initial value
+var x;        // No initial value
+
+func setx(v) {
+    x = v;
+    return x;
+}
+
+print x;         // -> ?
+print setx(123); // -> 123
+print x;         // -> 123
