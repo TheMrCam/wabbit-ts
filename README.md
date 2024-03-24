@@ -98,7 +98,7 @@ I'll let David describe himself (exerpt from [his website](https://www.dabeaz.co
 
 Firstly, I would recommend the course (or [any course](https://www.dabeaz.com/courses.html)) to anyone even remotely interested, as I consider it one of the most rewarding programming experiences I've ever had.
 
-While the course is taught with Python, he does it without any Python-specific patterns or "hacks", and without _any_ external libraries, so it could really be followed with any language of choice. TypeScript presented a few interesting challenges,
+While the course is taught with Python, he does it without any Python-specific patterns or "hacks", and without _any_ external libraries, so it could really be followed with any language of choice. TypeScript presented a few interesting challenges, but I had no trouble following along with the projects.
 
 ## Copyright
 
